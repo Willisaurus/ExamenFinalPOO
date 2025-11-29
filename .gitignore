@@ -1,0 +1,33 @@
+# Java & Eclipse .gitignore
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+
+# === Java ===
+bin/
+out/
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+
+# === Archivos generados por el programa ===
+buscaminas.dat
+
+# === Logs ===
+*.log
+
+# === IDEs adicionales ===
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
